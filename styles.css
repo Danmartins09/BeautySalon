@@ -421,19 +421,17 @@ footer .social a{
     margin-right: 2rem;
 }
 
-.icon {
-    display: inline-block;
+.lnr-arrow-up {
+    display: flex;
     width: 3rem;
     height: 3rem;
-    stroke-width: 0;
-   /* stroke: currentColor;*/
-    fill: var(--text-color-light);
+    justify-content: center;
+    align-items: center;    
+    color: white;   
     background: var(--base-color);
     position: fixed;
     right: 1rem;
     bottom: 1rem;
-    clip-path: circle();  
-    padding: .7rem; 
-    
-  }
+    clip-path: circle();   
+}
 

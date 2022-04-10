@@ -44,7 +44,7 @@ const swiper = new Swiper('.swiper-container', {
       origin: 'top',
       distance: '30px',
       duration: 900,
-      reset: true
+      //reset: true
   })
 
   scrollReveal.reveal(
